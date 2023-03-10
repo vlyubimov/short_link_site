@@ -1,0 +1,195 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  position: relative;
+  color: #24525b;
+  transition: color 0.6s ease;
+}
+a:hover {
+  color: #f34747;
+}
+
+body {
+  background: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+header a {
+  text-decoration: none;
+  position: relative;
+}
+header.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+  color: #266675;
+}
+
+.main-btn {
+  padding: 10px 2px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #2c9caf;
+  transition: all 1000ms;
+  font-size: 13px;
+  position: relative;
+  overflow: hidden;
+  outline: 2px solid #2c9caf;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover,
+form.form-controller input[type=submit]:hover {
+  color: #ffffff;
+  transform: scale(1.1);
+  outline: 2px solid #70bdca;
+  box-shadow: 4px 5px 17px -4px #268391;
+}
+
+button::before,
+form.form-controller input[type=submit]::before {
+  content: "";
+  position: absolute;
+  left: -50px;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #2c9caf;
+  transform: skewX(45deg);
+  z-index: -1;
+  transition: width 1000ms;
+}
+
+button:hover::before,
+form.form-controller input[type=submit]:hover::before {
+  width: 250%;
+}
+
+.container {
+  width: 1258px;
+  margin: 0 auto;
+}
+
+main.container {
+  margin-top: 70px;
+  color: #224d56;
+  font-weight: 400;
+}
+main.container .main-about {
+  display: flex;
+}
+main.container .main-about div {
+  width: 45%;
+  margin-left: 5%;
+}
+main.container .main-index,
+main.container .all-links {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+main.container .main-index h1,
+main.container .all-links h1 {
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+main.container .main-index p,
+main.container .all-links p {
+  word-wrap: break-word;
+}
+main.container .main-index h2,
+main.container .all-links h2 {
+  margin: 50px 0px;
+}
+main.container .main-index .link,
+main.container .all-links .link {
+  border: 1px solid silver;
+  border-radius: 5px;
+  background: #bbb;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+main.container .main-index .link p,
+main.container .all-links .link p {
+  margin-bottom: 5px;
+}
+
+form.form-controller {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+form.form-controller textarea {
+  width: 100%;
+  height: 250px;
+  padding: 10px 15px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+form.form-controller input[type=checkbox] {
+  width: initial;
+}
+
+form.form-controller input {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid silver;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+form.form-controller button {
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.error-mess,
+.success-mess {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.success-mess {
+  color: #34965b;
+}
+
+.error-mess {
+  color: #982a1f;
+}
+
+nav {
+  display: flex;
+}
+
+footer {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+}
