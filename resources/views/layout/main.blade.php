@@ -10,7 +10,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Scripts -->
-{{--    @vite(['resources/sass/app.scss', 'resources/js/app.js'])--}}
+
 </head>
 <body>
     <header class="container">
@@ -19,7 +19,6 @@
             <a href="/"><button class="main-btn">Главная</button></a>
             <a href="/about"><button class="main-btn">Про нас</button></a>
             <a href="/contact"><button class="main-btn">Контакты</button></a>
-{{--            <a href=""><button class="main-btn">Войти</button></a>--}}
 
             @guest
                 <a href="/login"><button class="main-btn">Войти</button></a>

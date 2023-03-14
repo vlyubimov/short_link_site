@@ -65,13 +65,6 @@ class LinkController extends Controller
             return redirect('/');
         }
 
-//        $link->fullLink = $request->input('fullLink');
-//        $newLink = 'http://127.0.0.1:8000/'.$request->input('shortLink');
-//        $link->shortLink = $newLink;
-//        $link->user_id = auth()->user()->id;
-//        $link->save();
-
-//        return redirect('/')->with('success', $status);
 
     }
 
