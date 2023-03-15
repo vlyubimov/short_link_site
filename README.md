@@ -10,6 +10,6 @@
 
 <h3>Preview img:</h3>
 
-<a href='https://user-images.githubusercontent.com/80951851/225315903-76779a27-c0ab-4cae-be1d-9955a4392c09.png'>View of the main page</a>
-<a href='https://user-images.githubusercontent.com/80951851/225316138-c2c1798a-cead-45e7-bc27-aa09adec103c.png'>View of the about page</a>
+<a href='https://user-images.githubusercontent.com/80951851/225315903-76779a27-c0ab-4cae-be1d-9955a4392c09.png'>View of the main page</a><br>
+<a href='https://user-images.githubusercontent.com/80951851/225316138-c2c1798a-cead-45e7-bc27-aa09adec103c.png'>View of the about page</a><br>
 <a href='https://user-images.githubusercontent.com/80951851/225316138-c2c1798a-cead-45e7-bc27-aa09adec103c.png'>View of the contact page</a>
