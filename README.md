@@ -1,6 +1,6 @@
 <h1 align="center">Short Link Site</h1>
 <h3>Project functionality:</h3>
-<p>The main functionality is to reduce links and redirect through the main country of the project.</p>
+<p>The main functionality is to shorten links and redirect through the main country of the project.</p>
 <p>Additionally, the possibility of registering and tracking previously abbreviated links is presented.</p>
 <p>The user can also send an email to the working address of the site.</p>
 
